@@ -1,0 +1,128 @@
+body {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	background-image: url("../images/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: white;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+	color: red;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+img {
+	width: 150px;
+}
+
+.gameTitle {
+	height: 60px;
+	line-height: 60px;
+}
+
+.gameTitle h1 {
+	float: right;
+	margin-right: 50px;
+}
+
+.container {
+	width: 100%;
+	display: inline-block;
+}
+
+.mainContainer {
+	height: 270px;
+}
+
+.character {
+	width: 150px;
+	height: 200px;
+	background-color: white;
+	color: black;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+.charInfo {
+	text-align: center;
+}
+
+.opponentBox {
+	margin: 5px 0;
+}
+
+.attackerBox {
+	width: 170px;
+	height: 250px;
+	float: left;
+	margin: 0 1%;
+	text-align: center;
+	background-color: #00cc00;
+}
+
+.gameInfo {
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.defenderBox {
+	width: 170px;
+	height: 250px;
+	float: left;
+	margin: 0 1%;
+	text-align: center;
+	background-color: #ff6666;
+}
+
+.defeated {
+	display: none;
+}
+
+.buttonContainer {
+	clear: both;
+	width: 100px;
+	margin-left: 25%;
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	background-color: #ff1a1a;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 30px;
+	border: 1px solid white;
+	border-radius: 1em;
+}
+
+.button:hover {
+	background-color: green;
+}
+
+.copyright {
+	clear: both;
+	float: right;
+	font-size: 14px;
+	color: gray;
+}
+
+#attack {
+	width: 100px;
+}
+
+#restart {
+	width: 100px;
+}

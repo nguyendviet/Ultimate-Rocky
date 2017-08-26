@@ -64,9 +64,9 @@ $(document).ready(function() {
 		var dh = $(".defender").data("health");
 		var $defName = $(".defender").data("name");
 		
-		$attacker.data("attack", a + attBase); console.log("attacker's damage: ", a);
-		$attacker.data("health", ah - d); console.log("attacker's health: ", ah);
-		$defender.data("health", dh - a); console.log("defender's health: ", dh);
+		$attacker.data("attack", a + attBase);
+		$attacker.data("health", ah - d);
+		$defender.data("health", dh - a);
 		
 		//update attacker's and defender's health
 		ah = $(".attacker").data("health");
